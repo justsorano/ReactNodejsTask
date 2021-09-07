@@ -1,0 +1,103 @@
+@font-face {
+   font-family: 'icons';
+   src:  url('../fonts/icons.eot?pasapg');
+   src:  url('../fonts/icons.eot?pasapg#iefix') format('embedded-opentype'),
+     url('../fonts/icons.ttf?pasapg') format('truetype'),
+     url('../fonts/icons.woff?pasapg') format('woff'),
+     url('../fonts/icons.svg?pasapg#icons') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: block;
+ }
+ 
+ [class^="_icon-"]:before, [class*=" _icon-"]:before {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'icons' !important;
+   speak: never;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+ 
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+ 
+ ._icon-gadgets .path1:before {
+   content: "\e900";
+   color: $iconcolor;
+   font-size: 50px;
+ }
+ ._icon-gadgets .path2:before {
+   content: "\e901";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-lock .path1:before {
+   content: "\e902";
+   font-size: 50px;
+   color: $iconcolor;
+ }
+ ._icon-lock .path2:before {
+   content: "\e903";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-lock .path3:before {
+   content: "\e904";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-lock .path4:before {
+   content: "\e905";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-lock .path5:before {
+   content: "\e906";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-things .path1:before {
+   content: "\e907";
+   font-size: 50px;
+   color: $iconcolor;
+ }
+ ._icon-things .path2:before {
+   content: "\e908";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-things .path3:before {
+   content: "\e909";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-things .path4:before {
+   content: "\e90a";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-things .path5:before {
+   content: "\e90b";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ ._icon-things .path6:before {
+   content: "\e90c";
+   font-size: 50px;
+   margin-left: -1.1044921875em;
+   color: rgb(255, 255, 255);
+ }
+ 

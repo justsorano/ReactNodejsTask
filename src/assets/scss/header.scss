@@ -1,5 +1,62 @@
 .header {
-   border: 3px solid black;
-   height: 500px;
-   width: 500px;
+   display: flex;
+   max-width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url('../header.jpg');
+   background-size: cover;
+   &__title {
+      font-size: 40px;
+      line-height: 48 / 40 * 100%;
+      color: white;
+      margin: 25px 0 0 0;
+   }
+   &__contant{
+      display: flex;
+      flex-direction: column;
+   }
+   &__main{
+      display: flex;
+      flex-direction: row;
+   }
+   &__phone{
+      flex: 0 2 auto;
+   }
+}
+.info{
+   color: white;
+   flex: 2 0 50%;
+   margin: 55px 0 0 0;
+   span{
+      font-family: $ffbold;
+      font-weight: 700;
+   }
+   &__title{
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 58 / 48 * 100%;
+      margin: 0 0 20px 0;
+   }
+   &__subtitle {
+      font-size: 20px;
+      line-height: 28 / 20  * 100%;
+      margin: 0 0 35px 0;
+   }
+
+}
+.btn{
+   background: white;
+   color: $btncolor;
+   width: 150px;
+   height: 55px;
+   border: 1px solid white;
+   border-radius: 8px;
+   font-size: 16px;
+   line-height: 142%;
+   cursor: pointer;
+   &:active{
+      background: #3a80ba73;
+      color: white;
+      border: 1px solid white;
+   }
 }

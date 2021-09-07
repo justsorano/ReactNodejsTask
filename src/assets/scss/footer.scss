@@ -1,0 +1,51 @@
+.footer{
+   background-image: url('..//../assets//footer.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   &__contant{
+      display: flex;
+      flex-direction: column;
+   }
+   &__form{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   }
+   &__info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 15px 0 45px 0;
+      color: white;
+   }
+   &__logo{
+      font-size: 32px;
+      line-height: 39 / 30 * 100%;
+   }
+   &__copy{
+      font-size: 16px;
+      line-height: 22 / 16 * 100%;
+   }
+}
+.form{
+   height: 50px;
+   margin: 35px 0 0 0;
+   &__btn{
+      background: $btncolor;
+      color: white;
+      height: 100%;
+      border-right: 3px solid #F1F1F1;
+      border-bottom: 3px solid #F1F1F1;
+   }
+   &__input{
+      padding: 0 0 0 20px;
+      width: 400px;
+      height: 100%;
+      background: white;
+      border: 3px solid #F1F1F1;
+      border-radius: 10px;
+   }
+}
